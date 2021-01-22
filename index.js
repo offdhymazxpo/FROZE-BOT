@@ -39,9 +39,9 @@ const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 const {vip} = require('./vipmenu/vip')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' // Versi Bot Kamu
-            + 'FN:Mr.Virtex\n' // Nama kamu
+            + 'FN:Mr.Mass\n' // Nama kamu
             + 'ORG:FROZEBO%;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6281539336834:+62 815-3933-6834\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=6285796582392:+62 857-9658-2392\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '!' // prefix bot kamu
 blocked = []
@@ -161,11 +161,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6281539336834@s.whatsapp.net"] // Nomor Kamu 
-            const vipNumber = ["6281539336834@s.whatsapp.net"] // jangan di ubah su
+			const ownerNumber = ["6285796582392@s.whatsapp.net"] // Nomor Kamu 
+            const vipNumber = ["6285796582392@s.whatsapp.net"] // jangan di ubah su
 			const isGroup = from.endsWith('@g.us')
-			const mhankaipi = 'Your' // api mhankbarbar kamu
-            const tobzapi = 'Your' // api tobz kamu
+			const mhankaipi = 'Nkwp9oR7Eg9yyKbejBpm' // api mhankbarbar kamu
+            const tobzapi = 'BotWeA' // api tobz kamu
             const apiy = 'Your' // api kamu 
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
