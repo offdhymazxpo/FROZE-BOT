@@ -14,7 +14,7 @@ const vip = (prefix) => {
 	*[❗] FITUR ADMIN PRICE 12K/MOTH*
 	
 	_Minat???_
-	_Chat_:https://wa.me/+6281539336835
+	_Chat_:https://wa.me/+6285796582392
 	
 	_Jangan Lupa Untuk Donasi 🙂_`
 
